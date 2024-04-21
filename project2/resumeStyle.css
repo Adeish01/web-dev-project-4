@@ -1,0 +1,131 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#hd {
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+#hd img {
+    max-width: 150px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    transform: translateY(-50%);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#lnav,
+#rnav {
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+#lnav {
+    left: 10px;
+}
+
+#rnav {
+    right: 10px;
+}
+
+#lnav a,
+#rnav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    margin: 10px auto; 
+    border-radius: 5px;
+}
+
+#lnav a:hover,
+#rnav a:hover {
+    background-color: #265fda;
+    color: #fff;
+}
+
+.bd {
+    margin: 20px;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.ft {
+    height: 60px;
+    text-align: center;
+}
+
+.skills, .activities,
+.work-experience {
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.hr {
+    border: 1px solid #fff;
+    /* margin: 20px 0; */
+}
+.table-container {
+    padding: 150px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+th,
+td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hList li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hList a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hList a:hover {
+    background-color: #477af0;
+}
